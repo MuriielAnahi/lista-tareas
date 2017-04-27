@@ -71,5 +71,16 @@ function agregarTexto(){
   var agrega=document.getElementsByClassName("agreg")
   agrega[0].innerHTML+="<li>"+"<b>Titulo :</b> "+agregar.value+"<br><li>";
   agregar.value = "";
+  
+   function lisTarea(vTarea){
+    this.userId = 1;
+    this.id = lisTarea.length;
+    this.title = agregas.value;
+    this.completed = false;
+    }
+    var list = new lisTareas(vTarea);
+    return lista.push(tarea);
+  
 
 };
+  
