@@ -66,3 +66,10 @@ tareas.forEach(function(titulo){
   document.write("<li>"+"<b>Titulo :</b> "+titulo.title+"<br>"+"</li>")
 })
 
+function agregarTexto(){
+  var agregar=document.getElementById("caja")
+  var agrega=document.getElementsByClassName("agreg")
+  agrega[0].innerHTML+="<li>"+"<b>Titulo :</b> "+agregar.value+"<br><li>";
+  agregar.value = "";
+
+};
