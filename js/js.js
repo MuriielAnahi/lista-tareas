@@ -63,6 +63,6 @@ var tareas=
   
 ]
 tareas.forEach(function(titulo){
-  document.write("<li>"+"<b>Titulo :</b>"+titulo.title+"<br>"+"</li>")
+  document.write("<li>"+"<b>Titulo :</b> "+titulo.title+"<br>"+"</li>")
 })
 
